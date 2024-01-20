@@ -3,7 +3,7 @@ import os
 import time
 
 
-st.set_page_config(page_icon="📁")
+st.set_page_config(page_icon="📂")
 
 # Title for the web app
 st.title("Upload your file!")
