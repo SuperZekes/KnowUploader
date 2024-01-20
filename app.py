@@ -9,7 +9,7 @@ st.set_page_config(page_icon="🦜")
 st.title("Upload your file!")
 
 # Create a file uploader widget
-uploaded_file = st.file_uploader("Upload a file", type=["csv", "txt", "xlsx",'pdf', 'jar', 'pdf', 'docx', 'dwg', 'zip', "png", 'jpg','py','h5',"mp4"], accept_multiple_files=True)
+uploaded_file = st.file_uploader("Upload a file", type=["csv", "txt", "xlsx",'pdf', 'jar', 'py', 'pdf', 'docx', 'dwg', 'zip', "png", 'jpg','py','h5',"mp4"], accept_multiple_files=True)
 
 # Check if a file has been uploaded
 if uploaded_file is not None:
