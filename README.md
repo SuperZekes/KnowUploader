@@ -1,6 +1,6 @@
 # KnowUploader
 A basic streamlit file uploader made for my personal use.
 
-## requirements
+## Requirements
 Python 3.0 and above.
 Streamlit
