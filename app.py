@@ -39,4 +39,4 @@ if uploaded_file is not None:
         fin = time.time()
         st.success(f"File saved to: {file_path}")
         print(f"File saved to: {file_path}")
-        print(f"Time was spent {fin - strt} seks ")
+        print(f"Time was spent {fin - strt} secs ")
