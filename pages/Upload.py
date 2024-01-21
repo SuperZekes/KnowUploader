@@ -4,7 +4,6 @@ import time
 
 
 st.set_page_config(page_title="KnowUploader | Upload" , page_icon="📂")
-
 # Title for the web app
 st.title("Upload your file!")
 
