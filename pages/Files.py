@@ -4,6 +4,8 @@ from pathlib import Path
 
 uploaded_files_dir = 'uploaded_files' 
 
+st.set_page_config(page_title="KnowUploader | Files" , page_icon="📂")
+
 st.header('Files')
 
 files = os.listdir(uploaded_files_dir)
